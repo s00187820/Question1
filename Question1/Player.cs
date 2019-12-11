@@ -10,6 +10,7 @@ namespace Question1
 
     class Player : IComparable
     {
+        //properties
         public string FirstName { get; set; }
 
         public string SurName { get; set; }
@@ -20,6 +21,8 @@ namespace Question1
 
         public DateTime Age { get; set; }
 
+
+        //methods
         private string _spaces;
 
         public string Spaces
@@ -44,6 +47,7 @@ namespace Question1
                 "Kelly", "Lynch", "McCarthy", "McDonagh", "Murphy", "Nolan", "O'Brien",
                 "O'Connor", "O'Neill", "O'Reilly", "O'Sullivan", "Ryan", "Walsh"};
 
+        //constructors
         public int CompareTo(object obj)
         {
             Player that = obj as Player;

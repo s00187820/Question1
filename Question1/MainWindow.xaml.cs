@@ -41,6 +41,7 @@ namespace Question1
 
         private List<Position> GetPlayers()
         {
+            //info for listbox
             List<Position> allPositions = new List<Position>();
 
             Player G1 = new Player()
